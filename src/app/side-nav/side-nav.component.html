@@ -1,0 +1,13 @@
+<div class="side-nav-content-collapse"  [ngClass]="{'nav list-open': sideNavStatus}">
+
+    <ul #ulName class="nav-list">
+        <li class="nav-list-item" *ngFor="let item of list">
+            <i class="{{item.icon}}"></i>
+            <span>
+                <a href="#">{{item.name}}</a>
+            </span>
+        </li>
+    </ul>
+    <!-- add the add music button below-->
+
+</div>
