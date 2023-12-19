@@ -7,10 +7,10 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 
 export class SideNavComponent implements OnInit {
-handleClick(_t4: HTMLUListElement) {
-this.sideNavStatus=!this.sideNavStatus;
-}
-    @Input() sideNavStatus: boolean = false;
+// handleClick(_t4: HTMLUListElement) {
+// this.sideNavStatus=!this.sideNavStatus;
+// }
+    @Input() sideNavStatus: boolean = true;
     list = [
         {
             number: '1',
@@ -26,7 +26,7 @@ this.sideNavStatus=!this.sideNavStatus;
             number: '3',
             name: 'artists',
             icon: 'fa-solid fa-music',
-        },
+        }
 
 ];
 //sideNavStatus: any; (should add this?)

@@ -2,32 +2,31 @@
     border: 1px solid white;
 }
 
-.side-nav-content {
+.side-nav-content{
     color: white;
     width: 230px;
     margin-left: 10px;
     margin-right: 10px; 
     margin-top: 10px;
-    height: 100vh; /*just added */
+    height: 450vh; /*just added */
 }
 
-/*Just added*/
-.side-nav-content-collapse {
+/*Just added by samprada*/
+/* .side-nav-content-collapse {
     color: white;
     width: 230px;
     margin-left: 10px;
     margin-right: 10px; 
     margin-top: 10px;
-    height: 100vh; /*just added */
+    height: 100vh;
     width:20%;
-}
+} */
 
 .nav-list {
     list-style: none;
     height: 100%;
     padding: 0%;
     margin-bottom: 0%;
-    
 }
 
 .nav-list-item {
@@ -59,4 +58,8 @@
 a {
     text-decoration: none;
     color: white;
+}
+
+.btn{
+    padding-right: 10px;
 }

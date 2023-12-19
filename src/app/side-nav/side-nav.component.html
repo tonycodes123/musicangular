@@ -1,12 +1,15 @@
-<div class="side-nav-content-collapse"  [ngClass]="{'nav list-open': sideNavStatus}">
+<div class="side-nav-content" [ngClass]="{'nav list-open': sideNavStatus}">
 
-    <ul #ulName class="nav-list">
+    <ul class="nav-list">
         <li class="nav-list-item" *ngFor="let item of list">
             <i class="{{item.icon}}"></i>
             <span>
                 <a href="#">{{item.name}}</a>
             </span>
+            
         </li>
+        <!-- <button type="button" data-bs-toggle="modal">Add music</button> -->
+        <a routerlink="/addmusic" class="btn btn-primary d-inline-flex mt-5" style="margin-left: 50px;" href="/addmusic"><div class="btn__wrap"><i class="fa-solid fa-microphone"></i><span>   Add Music</span></div></a>
     </ul>
     <!-- add the add music button below-->
 

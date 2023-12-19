@@ -7,9 +7,9 @@ import { SideNavComponent } from './side-nav/side-nav.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-handleNavStatus() {
-this.sideNavStatus = !this.sideNavStatus;
-}
+// handleNavStatus() {
+// this.sideNavStatus = !this.sideNavStatus;
+// }
   title = 'musicangular';
   sideNavStatus: boolean = true;
 }
