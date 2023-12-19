@@ -11,24 +11,24 @@ export class SideNavComponent implements OnInit {
 // this.sideNavStatus=!this.sideNavStatus;
 // }
     @Input() sideNavStatus: boolean = true;
-    list = [
-        {
-            number: '1',
-            name: 'home',
-            icon: 'fa-solid fa-house',
-        },
-        {
-            number: '2',
-            name: 'albums',
-            icon: 'fa-solid fa-record-vinyl',
-        },
-        {
-            number: '3',
-            name: 'artists',
-            icon: 'fa-solid fa-music',
-        }
+//     list = [
+//         {
+//             number: '1',
+//             name: 'home',
+//             icon: 'fa-solid fa-house',
+//         },
+//         {
+//             number: '2',
+//             name: 'albums',
+//             icon: 'fa-solid fa-record-vinyl',
+//         },
+//         {
+//             number: '3',
+//             name: 'artists',
+//             icon: 'fa-solid fa-music',
+//         }
 
-];
+// ];
 //sideNavStatus: any; (should add this?)
 
     constructor() {}

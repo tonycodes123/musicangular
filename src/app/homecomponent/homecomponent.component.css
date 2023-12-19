@@ -1,0 +1,53 @@
+.ulclass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+.secondone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+.content{
+    text-decoration: none;
+}
+.first{
+    height: 20rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    color: brown;
+    opacity: 0.8;
+}
+#albumid{
+    height: 175px;
+}
+.singerimg{
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    margin: 40px;
+}
+li a:hover{
+    opacity: 1;
+    cursor: pointer;
+}

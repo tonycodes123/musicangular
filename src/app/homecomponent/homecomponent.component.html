@@ -1,0 +1,32 @@
+<ul class="ulclass">
+    <li class="liclass" *ngFor="let album of albums">
+        <a class="first">
+            <img id="albumid" src="{{album.albumimageurl}}" alt="">
+            <div class="content">
+                <div class="name">
+                    {{album.albumname}}
+                </div>
+                <span class="favorite {{album.favourite?'':'not'}} ">
+                    ❤
+                </span>
+                <div class="desc">
+                    {{album.desc}}
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<ul class="secondone">
+    <li  *ngFor="let singer of singers">
+        <a id="secondonee" >
+            <img class="singerimg" src="{{singer.singerimageurl}}">
+            <div class="content">
+                <div class="name">
+                    {{singer.singername}}
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
