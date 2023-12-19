@@ -6,159 +6,21 @@
     
     
     <!--song card start-->
-    <div class="m-4" style="width: 200px;">
+    <div class="m-4" style="width: 200px;" *ngFor="let item of list">
         <div style="position: relative;">
-            <img src="assets/images/04.jpg" class="big-song-img rounded img-fluid" >
+            <img src="{{item.image}}" class="big-song-img rounded img-fluid" >
             <a href="#">
                 <div class="big-song-hover " >
-                    <i class="h1 bi bi-play"></i>
+                    <i class="fa-solid fa-play"></i>
                 </div>
             </a>
             </div>
         <div>
-            <div class="lead text-white">My love</div>
-            <small class="text-muted">Song description</small>
+            <div class="lead text-white">{{item.name}}</div>
+            <small class="text-muted">{{item.description}</small>
         </div>
     </div>
     <!--song card end-->
-
-    <!--song card start-->
-    <div class="m-4" style="width: 200px;">
-        <div style="position: relative;">
-            <img src="assets/images/05.jpg" class="big-song-img rounded img-fluid" >
-            <a href="#">
-                <div class="big-song-hover " >
-                    <i class="h1 bi bi-play"></i>
-                </div>
-            </a>
-            </div>
-        <div>
-            <div class="lead text-white">East river dale</div>
-            <small class="text-muted">Song description</small>
-        </div>
-    </div>
-    <!--song card end-->
-
-    <!--song card start-->
-    <div class="m-4" style="width: 200px;">
-        <div style="position: relative;">
-            <img src="assets/images/06.jpg" class="big-song-img rounded img-fluid" >
-            <a href="#">
-                <div class="big-song-hover " >
-                    <i class="h1 bi bi-play"></i>
-                </div>
-            </a>
-            </div>
-        <div>
-            <div class="lead text-white">Never coming home</div>
-            <small class="text-muted">Song description</small>
-        </div>
-    </div>
-    <!--song card end-->
-
-    <!--song card start-->
-    <div class="m-4" style="width: 200px;">
-        <div style="position: relative;">
-            <img src="assets/images/07.jpg" class="big-song-img rounded img-fluid" >
-            <a href="#">
-                <div class="big-song-hover " >
-                    <i class="h1 bi bi-play"></i>
-                </div>
-            </a>
-            </div>
-        <div>
-            <div class="lead text-white">Bye bye baby</div>
-            <small class="text-muted">Song description</small>
-        </div>
-    </div>
-    <!--song card end-->
-
-    <!--song card start-->
-    <div class="m-4" style="width: 200px;">
-        <div style="position: relative;">
-            <img src="assets/images/08.jpg" class="big-song-img rounded img-fluid" >
-            <a href="#">
-                <div class="big-song-hover " >
-                    <i class="h1 bi bi-play"></i>
-                </div>
-            </a>
-            </div>
-        <div>
-            <div class="lead text-white">Chicken run</div>
-            <small class="text-muted">Song description</small>
-        </div>
-    </div>
-    <!--song card end-->
-
-    <!--song card start-->
-    <div class="m-4" style="width: 200px;">
-        <div style="position: relative;">
-            <img src="assets/images/09.jpg" class="big-song-img rounded img-fluid" >
-            <a href="#">
-                <div class="big-song-hover " >
-                    <i class="h1 bi bi-play"></i>
-                </div>
-            </a>
-            </div>
-        <div>
-            <div class="lead text-white">End of the road</div>
-            <small class="text-muted">Song description</small>
-        </div>
-    </div>
-    <!--song card end-->
-
-    <!--song card start-->
-    <div class="m-4" style="width: 200px;">
-        <div style="position: relative;">
-            <img src="assets/images/11.jpg" class="big-song-img rounded img-fluid" >
-            <a href="#">
-                <div class="big-song-hover " >
-                    <i class="h1 bi bi-play"></i>
-                </div>
-            </a>
-            </div>
-        <div>
-            <div class="lead text-white">Jail aint good</div>
-            <small class="text-muted">Song description</small>
-        </div>
-    </div>
-    <!--song card end-->
-
-    <!--song card start-->
-    <div class="m-4" style="width: 200px;">
-        <div style="position: relative;">
-            <img src="assets/images/13.jpg" class="big-song-img rounded img-fluid" >
-            <a href="#">
-                <div class="big-song-hover " >
-                    <i class="h1 bi bi-play"></i>
-                </div>
-            </a>
-            </div>
-        <div>
-            <div class="lead text-white">Fix my bike</div>
-            <small class="text-muted">Song description</small>
-        </div>
-    </div>
-    <!--song card end-->
-
-    <!--song card start-->
-    <div class="m-4" style="width: 200px;">
-        <div style="position: relative;">
-            <img src="assets/images/14.jpg" class="big-song-img rounded img-fluid" >
-            <a href="#">
-                <div class="big-song-hover " >
-                    <i class="h1 bi bi-play"></i>
-                </div>
-            </a>
-            </div>
-        <div>
-            <div class="lead text-white">Journey to the end</div>
-            <small class="text-muted">Song description</small>
-        </div>
-    </div>
-    <!--song card end-->
-
-    
 
 </section>
 <!-- end category area-->
