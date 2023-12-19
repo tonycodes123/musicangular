@@ -8,11 +8,11 @@ import { HttpClient } from '@angular/common/http';
 export class AddMusicComponent implements OnInit {
   constructor(private http:HttpClient){}
   ngOnInit(): void {
-    this.getmethod();
+    this.postmethod();
   }
   public getjsonval:any;
   public postjsonval:any;
-  public getmethod() {
+  public postmethod() {
   this.http.get('https://localhost:7050/api/songs').subscribe((data)=>console.log(data));
 }
 
